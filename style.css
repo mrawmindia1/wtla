@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Light gray background */
+    color: #333; /* Dark gray text */
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #f1d5ccfe; /* White background for header */
+    padding: 20px 0;
+    text-align: center;     
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #007bff; /* Blue header color */
+}
+
+header p {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    color: #333; /* Dark gray text */
+}
+
+header img {
+    width: 100px;
+    height: "auto";
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #007bff; /* Blue navigation links */
+    font-weight: bold;
+}
+
+main {
+    padding: 20px 0;
+}
+
+section {
+    background-color: #fff; /* White background for sections */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #007bff; /* Blue heading color */
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.about-text p {
+    line-height: 1.6;
+}
+
+.about img {
+    width: 500px;
+    height: auto;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%; /* Adjust the width as needed */
+    margin: 20px auto; /* Center the table */
+}
+
+td {
+    border: 1px solid #000; /* Add border to each cell */
+    padding: 10px; /* Padding inside cells */
+    text-align: center; /* Center the text */
+    font-family: Arial, sans-serif; /* Font style */
+    font-size: 16px; /* Font size */
+    color: #333; /* Dark gray text */
+}
+
+.span-2 {
+    background-color: #f0f0f0; /* Light gray background for last row */
+    font-weight: bold; /* Bold text for WCE Moodle */
+}
+
+footer {
+    background-color: #333; /* Dark gray footer */
+    color: #fff; /* White text */
+    padding: 10px 0;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff; /* Blue links */
+}
